@@ -15,16 +15,20 @@ The core contribution of the FlyGM paper is that a static biological wiring diag
 ## File Structure
 
 ```
-flygm_navigation/
-├── requirements.txt
-├── README.md
-└── src/
-    ├── __init__.py
-    ├── environment.py      # GridMazeEnv — Gymnasium-compatible maze
-    ├── graph_builder.py    # Bio-inspired connectome graph construction
-    ├── flygm_network.py    # FlyGMNetwork — connectome-structured actor-critic
-    ├── a2c_agent.py        # A2C update logic + Rollout dataclass
-    └── train.py            # Training loop, evaluation, logging, plotting
+FlyGM-A2C_navigation/
+┣━━ requirements.txt
+┣━━ README.md
+┣━━ research
+┃    ┣━━ Bio-inspired Neural Control - Implementing the Fly-connectomic ┃    ┃ Graph Model and Advantage Actor-Critic for Robotic Navigation in
+┃    ┃ Complex Environments (Gemini 3 Thing + Deep Research).md
+┃    ┗━━ Custom_Instructions_FlyGM_A2C_v2 (Kimi K2.5 Thinking).md
+┗━━ src/
+    ┣━━ __init__.py
+    ┣━━ environment.py      # GridMazeEnv — Gymnasium-compatible maze
+    ┣━━ graph_builder.py    # Bio-inspired connectome graph construction
+    ┣━━ flygm_network.py    # FlyGMNetwork — connectome-structured actor-critic
+    ┣━━ a2c_agent.py        # A2C update logic + Rollout dataclass
+    ┗━━ train.py            # Training loop, evaluation, logging, plotting
 ```
 
 ---
