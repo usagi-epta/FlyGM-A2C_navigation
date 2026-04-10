@@ -19,9 +19,7 @@ FlyGM-A2C_navigation/
 ┣━━ requirements.txt
 ┣━━ README.md
 ┣━━ research
-┃    ┣━━ Bio-inspired Neural Control - Implementing the Fly-connectomic ┃
-┃    ┃ Graph Model and Advantage Actor-Critic for Robotic Navigation in
-┃    ┃ Complex Environments (Gemini 3 Thing + Deep Research).md
+┃    ┣━━ Bio-inspired Neural Control - Implementing the Fly-connectomic Graph Model and Advantage Actor-Critic for Robotic Navigation in Complex Environments (Gemini 3 Thing + Deep Research).md
 ┃    ┗━━ Custom_Instructions_FlyGM_A2C_v2 (Kimi K2.5 Thinking).md
 ┗━━ src/
     ┣━━ __init__.py
