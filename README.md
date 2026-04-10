@@ -202,3 +202,9 @@ The structural principle is identical: a fixed graph $W$ acts as a structural in
 ## Limitations and Future Work
 
 The current implementation simplifies several aspects of the full FlyGM pipeline. The graph is synthetically constructed rather than derived from actual connectome data, so it does not inherit the full structural inductive bias demonstrated in the paper. The single-stage A2C training lacks the imitation-learning initialisation that accelerated convergence in the original work. Extending to continuous action spaces, larger mazes with multiple rooms, or multi-goal tasks would provide a more comprehensive test of the architecture's generality.
+
+## Credits
+
+[arXiv:2602.17997v2](https://arxiv.org/abs/2602.17997v2)
+
+Anthropic Claude Sonnet 4.6 Extended | moonshot.ai Kimi K2.5 Thinking | Google Gemini 3 Thinking + Deep Research
