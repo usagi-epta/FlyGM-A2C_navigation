@@ -83,7 +83,7 @@ The dense shaping term and exploration bonus are included to accelerate early le
 The policy follows Algorithm 1 of the FlyGM paper. At each timestep $t$:
 
 > - **Step 1 — Encoder**
-$$\tilde{x}_t = \text{Enc}_\theta(x_t) \in \mathbb{R}^{d_\text{enc}}$$
+$$\tilde{x}\_t = \text{Enc}\_\theta(x\_t) \in \mathbb{R}^{d\_\text{enc}}$$
 A LayerNorm → Linear → ReLU block maps the 75-dim observation to a 32-dim encoding.
 
 > - **Step 2 — Afferent Injection** *(Equation 4)*
